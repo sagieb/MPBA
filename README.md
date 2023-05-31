@@ -1,6 +1,6 @@
 # MPBA
 1. To run the code first install the python requirements
-`conda create -n mp_py python=3.8.3`
+`conda create -n mp_py python=3.8.3`<br>
 `conda activate mp_py`
 `pip install -r requirements.txt`
 `python -m ipykernel install --user --name mp_py --display-name "Python (mp_py)"`
