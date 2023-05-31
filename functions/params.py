@@ -7,7 +7,6 @@ from functions import data_processing as dp
 import scipy.io as sio
 
 # used paths
-os.chdir('../')
 curr_dir = os.getcwd()
 data_path = os.path.join(curr_dir, 'data')  # directory containing all data used
 genome_annot_path = os.path.join(data_path, 'genome_annot')  # a directory containing all genomic information
