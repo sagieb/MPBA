@@ -1,0 +1,37 @@
+LOCUS       Lib61_-_Cdc6             200 bp ds-DNA     linear       24-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    68..73
+                     /label="Ste12"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    complement(88..92)
+                     /label="Tec1"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    102..105
+                     /label="Nrg1/2"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    129..132
+                     /label="Swi4"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    141..144
+                     /label="Swi4"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCAT ATCTGTAGTT TCAACAAAAT ATGTCTGGCT TGCGATTTGT
+       61 TGTGTTTTGA AAMTAGTTGC TAGTCTGMAT TCCTTTGTTT TCMCTGAATT ACCCAAAGAA
+      121 GAAAGCGACR CGAGGCCTCA CRCGTCGGAG TTTCCAGATC AGGAAATTAC CCACTTAGGA
+      181 AAGGACACGA CTTGCCGAGC
+//

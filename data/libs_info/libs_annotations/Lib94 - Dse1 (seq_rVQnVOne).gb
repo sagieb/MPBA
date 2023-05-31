@@ -1,0 +1,37 @@
+LOCUS       Lib94_-_Dse1             200 bp ds-DNA     linear       29-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(50..54)
+                     /label="Ace2/Swi5"
+                     /ApEinfo_revcolor="#c7b0e3"
+                     /ApEinfo_fwdcolor="#c7b0e3"
+     misc_feature    61..65
+                     /label="Ace2/Swi5"
+                     /ApEinfo_revcolor="#c7b0e3"
+                     /ApEinfo_fwdcolor="#c7b0e3"
+     misc_feature    90..96
+                     /label="Fkh1/2"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    99..103
+                     /label="Ace2/Swi5"
+                     /ApEinfo_revcolor="#c7b0e3"
+                     /ApEinfo_fwdcolor="#c7b0e3"
+     misc_feature    136..142
+                     /label="Fkh1/2"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCAC ATGATCGTAT ACTGTCACGT GACTGTGCGG CTRGTCTGCG
+       61 CMAGCAATTT TTTTTTTCTG CTCTCAAATG TAAAMAAACM AGCAGTCTGT TTTCTAAACA
+      121 AATAAACATT AAAAGGTAAA MAATACCAAA TAATAATAGC AGCGTCAAAG CTACATTCTC
+      181 AGGGACACGA CTTGCCGAGC
+//

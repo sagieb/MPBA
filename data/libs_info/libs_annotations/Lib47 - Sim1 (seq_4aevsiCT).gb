@@ -1,0 +1,37 @@
+LOCUS       Lib47_-_Sim1             200 bp ds-DNA     linear       24-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(52..58)
+                     /label="Fkh1 motif"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+     misc_feature    complement(80..85)
+                     /label="Tec1 Weak"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    complement(99..103)
+                     /label="Tec1 Motif"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    121..126
+                     /label="Ste12 Motif"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    complement(138..143)
+                     /label="Tec1 Weak"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCTC TAATGCTAAT GTTCAACTGC TCTTTAAGTA TTRTTTACGT
+       61 CTCGTCGTAC CAGTATGCCA AATTMCTGTC ACTTCACTCA TTMTCTTTGC TCTTACCGTT
+      121 TGAAAMGCGC TGGGACGGAA TTMGCTCATT TCGCATCGTG CTTTGTTGTT TTTTTTTTTT
+      181 CAGGACACGA CTTGCCGAGC
+//

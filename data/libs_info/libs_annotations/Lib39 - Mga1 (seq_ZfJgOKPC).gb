@@ -1,0 +1,49 @@
+LOCUS       Lib39_-_Mga1             200 bp ds-DNA     linear       23-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(51..54)
+                     /label="Tos8"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     misc_feature    complement(54..57)
+                     /label="Sfl1 "
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+     misc_feature    103..112
+                     /label="Sfl1 double motif"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+     misc_feature    103..112
+                     /label="Sfl1 double motif"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+     misc_feature    117..120
+                     /label="Cup9"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(132..135)
+                     /label="Nrg"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    complement(132..136)
+                     /label="Gis1"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    143..147
+                     /label="Mot3"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCAT TACATTACAT AATAATAAAT AAATGACAAC TGTMTTCTTT
+       61 ACAGCGTATG TTGGAGCTTA CTCCCGAAGC ATAAACCCAG TTCTTMTARA AGAATTGAMA
+      121 GCAGAAAGGA AAGRGGTACC GAAGRCAAAC TCAACCTTAA AAGTTCCGTA AGCAACCGAG
+      181 CCGGACACGA CTTGCCGAGC
+//

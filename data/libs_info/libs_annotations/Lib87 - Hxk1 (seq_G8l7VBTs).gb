@@ -1,0 +1,61 @@
+LOCUS       Lib87_-_Hxk1             200 bp ds-DNA     linear       29-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    48..51
+                     /label="Tda9/Rsf2/Adr1"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_fwdcolor="#d59687"
+     misc_feature    48..52
+                     /label="Msn2/4"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    complement(55..59)
+                     /label="Hcm1"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    85..88
+                     /label="Tda9/Rsf2/Adr1"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_fwdcolor="#d59687"
+     misc_feature    85..89
+                     /label="Msn2/4"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    93..96
+                     /label="Tda9/Rsf2/Adr1"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_fwdcolor="#d59687"
+     misc_feature    93..97
+                     /label="Mig1/2/3"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    106..109
+                     /label="Tda9/Rsf2/Adr1"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_fwdcolor="#d59687"
+     misc_feature    106..110
+                     /label="Msn2/4"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    131..134
+                     /label="Tda9/Rsf2/Adr1"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_fwdcolor="#d59687"
+     misc_feature    131..135
+                     /label="Mig1/2/3"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCGA CGCGTGGGTT TCAGGAAGAA TGGCAGTCCM CTTTTRTTTT
+       61 TCCGCATTGT GTGAGCTTCT TATGCCMCTG AACCMCACTA TTCTGCCMCT TTGAAACTCC
+      121 CGCACGTGTG CCMCGTTTGT TGGAAGATAG CGAAATACCT TACTGGAGCA ACCAGGAAAA
+      181 ATGGACACGA CTTGCCGAGC
+//

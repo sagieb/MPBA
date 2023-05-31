@@ -1,0 +1,37 @@
+LOCUS       Lib46_-_Hap4             200 bp ds-DNA     linear       24-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    52..56
+                     /label="Migs Motif"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+     misc_feature    55..58
+                     /label="Stp2/4 motif"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    72..79
+                     /label="Migs double motif"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+     misc_feature    complement(81..84)
+                     /label="Nrgs motif"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    complement(81..85)
+                     /label="Msns Motif"
+                     /ApEinfo_revcolor="#c7b0e3"
+                     /ApEinfo_fwdcolor="#c7b0e3"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCAG GAACACGCGT TTCGTGGGCT TTGGACCACT ACCMCGGMGT
+       61 TCAGAGAAAC CCCMCGRGGC AGRGRTCCGA AGTCTAAAAG TTTAATCCGG AAGTAGCGAC
+      121 GGGGGGGAAG CCCGCCGCGC ACAGATGGCC AGCACAACGG AGCGGGGCCG AGGCGGCAAA
+      181 CGGGACACGA CTTGCCGAGC
+//

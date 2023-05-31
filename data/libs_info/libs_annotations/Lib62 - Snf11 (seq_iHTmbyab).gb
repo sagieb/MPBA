@@ -1,0 +1,49 @@
+LOCUS       Lib62_-_Snf11            200 bp ds-DNA     linear       24-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    58..61
+                     /label="Crz1"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+     misc_feature    complement(67..70)
+                     /label="Stp1/2"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(92..95)
+                     /label="Crz1"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+     misc_feature    complement(93..96)
+                     /label="Stp1/2"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(103..106)
+                     /label="Stp1/2"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    114..117
+                     /label="Stp1/2"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    132..135
+                     /label="Adr1/Rsf2/Tda9"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    138..141
+                     /label="Stp1"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCGT TCCGCGGAAA GCACGTGAGC GTAATCCACT CGGGAAGGGM
+       61 GCAGCTRCCG TGGCCAACTG AAGTAATCTT TARCCGTTTA TCRCCGCGCA AAACGGMAAT
+      121 TGCACTTGAG ACCMCAACGG MGCTGTGCAG CAGGGTATTC TACTACGTGT TAGCTTGCCT
+      181 TGGGACACGA CTTGCCGAGC
+//

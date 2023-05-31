@@ -1,0 +1,45 @@
+LOCUS       Lib33_-_Cip1             200 bp ds-DNA     linear       23-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    78..81
+                     /label="Mbp1/Swi4 Motif"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_fwdcolor="#d59687"
+     misc_feature    complement(80..83)
+                     /label="Tos8/Cup9 Motif"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    97..101
+                     /label="Mot3 Motif"
+                     /ApEinfo_revcolor="#c7b0e3"
+                     /ApEinfo_fwdcolor="#c7b0e3"
+     misc_feature    complement(100..103)
+                     /label="Mbp1/Swi4 motif"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_fwdcolor="#d59687"
+     misc_feature    complement(102..105)
+                     /label="Cup9/Tos8 Motif"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    complement(121..124)
+                     /label="Dot6/Tod6 Motif"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    143..146
+                     /label="Tos8/Cup9 Motif"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCGA AATAGAAATG GTCATTTTAA GCTCAAGTGA AGCGAAAAAA
+       61 GGAGGTATAC TCCTTTACGC RTCACCCAAT CTGGATAGRC ACRTCAAACT CATTAGGTCT
+      121 CATMAAGAAC TAGTGTAGAA ATGAMGCTTG AACTCCGAAC TTTAAACAAA GTTCTGTTTT
+      181 TGGGACACGA CTTGCCGAGC
+//

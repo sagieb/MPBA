@@ -1,0 +1,33 @@
+LOCUS       Lib65_-_KAR4             200 bp ds-DNA     linear       24-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(51..56)
+                     /label="Ste12"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+     misc_feature    complement(100..105)
+                     /label="Ste12"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+     misc_feature    complement(123..128)
+                     /label="Ste12"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+     misc_feature    complement(145..150)
+                     /label="Ste12"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCAA ACAATTTTAG TTTTGCTGGA CATATTTTCA RTTTCATTAC
+       61 TGTATATTTG CAGCTTGGTT TTTGTCGCTC TGTAGTCTTR TTTCACACTT CGTCATTTCC
+      121 GARTTTCATC TTGCGACATA ACTTRTTTCA ACTTTTCAAG TGCGACTTTT TGTTAAATAT
+      181 TAGGACACGA CTTGCCGAGC
+//

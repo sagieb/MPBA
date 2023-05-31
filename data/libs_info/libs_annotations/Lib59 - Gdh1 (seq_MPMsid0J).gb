@@ -1,0 +1,45 @@
+LOCUS       Lib59_-_Gdh1             200 bp ds-DNA     linear       24-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(55..60)
+                     /label="Gln3"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(57..60)
+                     /label="Dal80/Gat1/Gzf3"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    84..87
+                     /label="Dal80/Gat1/Gzf3"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    complement(90..95)
+                     /label="Gln3"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(92..95)
+                     /label="Dal80/Gat1/Gzf3"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    complement(108..111)
+                     /label="Crz1"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    complement(139..142)
+                     /label="Met32"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCCC ATGACTCCAT GGAAACGGGC CTGATCTTAA TAACCTTATM
+       61 TGACCATCTG ATTGGATGGC CTCRATATTC TTATMGCAGA ACCAATGCRC CGGAACCGGC
+      121 CCATGCATTT TCAGTGCGGT RGGGCAATAA AAAAGAAATA GTACGACCCC ACGTCCAATC
+      181 AGGGACACGA CTTGCCGAGC
+//

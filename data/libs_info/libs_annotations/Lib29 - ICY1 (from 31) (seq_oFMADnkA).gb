@@ -1,0 +1,53 @@
+LOCUS       Lib29_-_ICY1_(from_31)   200 bp ds-DNA     linear       22-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    53..56
+                     /label="Rsf2/Tda9/Adr1 motif"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    53..57
+                     /label="Migs motif"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+     misc_feature    complement(72..75)
+                     /label="Gat motif"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     misc_feature    97..102
+                     /label="Sko1"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    97..104
+                     /label="Aca1/Cst6 motif"
+                     /ApEinfo_revcolor="#d6b295"
+                     /ApEinfo_fwdcolor="#d6b295"
+     misc_feature    98..101
+                     /label="Tos8/Cup9 motif"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    complement(111..114)
+                     /label="Swi4 motif"
+                     /ApEinfo_revcolor="#c7b0e3"
+                     /ApEinfo_fwdcolor="#c7b0e3"
+     misc_feature    complement(138..142)
+                     /label="Migs motif"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+     misc_feature    complement(139..142)
+                     /label="Tda9/Adr1 motif"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCTC TCTCCACACC CTCTTCTGAA CTCTCATATA CACCMCATGG
+       61 GTGAAAAGTA ATATMCGTAA AAGTCTCGCT AACGGATGAM GTTAACAACG CAMGCCCGCT
+      121 CCTTGCGAAA TTTATTGTGR GGACGTCGTT CACGTGCAAA AGTCGCCAAA TATTAGCGAC
+      181 GGGGACACGA CTTGCCGAGC
+//

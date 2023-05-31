@@ -1,0 +1,29 @@
+LOCUS       Lib96_-_Tec1             200 bp ds-DNA     linear       02-DEC-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(91..95)
+                     /label="Tec1"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    131..135
+                     /label="Tec1"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    complement(141..146)
+                     /label="Ste12"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCGG TGTTTCAGAT GAGCCATTTT GCCCGTAGTC CGGTTTAATC
+       61 AGCCTCATTG GAATTCCCCG GCACCGCTCG CATTMCGCGT ACGACTCAAA GAATTTCCCA
+      121 TTGAATTCGG RAATGTGCGT RTTTCAGATT GCGTTTGCTT ATTATTCTGG GAAACTCTCC
+      181 GGGGACACGA CTTGCCGAGC
+//

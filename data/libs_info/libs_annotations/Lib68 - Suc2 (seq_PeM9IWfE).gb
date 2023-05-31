@@ -1,0 +1,37 @@
+LOCUS       Lib68_-_Suc2             200 bp ds-DNA     linear       24-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(65..76)
+                     /label="Hsf1"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    complement(100..104)
+                     /label="Mig1/2/3"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    107..110
+                     /label="Sfl1"
+                     /ApEinfo_revcolor="#d6b295"
+                     /ApEinfo_fwdcolor="#d6b295"
+     misc_feature    133..137
+                     /label="Mig1/2/3"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    complement(143..146)
+                     /label="Nrg1/2"
+                     /ApEinfo_revcolor="#c7b0e3"
+                     /ApEinfo_fwdcolor="#c7b0e3"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCTT ATGAGGGCTT CCATTATTCC CCGCATTTTT ATTACTCTGA
+       61 ACAGRAATAA AAARAAAAAA CCCAGTTTAG GAAATTATCC GRGGGCRAAG AAATACGCGT
+      121 AGCGTTAATC GACCMCACGT CCAGRGTTTT TCCATGGAGG TTTCTGGAAA AACTGACGAG
+      181 GAGGACACGA CTTGCCGAGC
+//

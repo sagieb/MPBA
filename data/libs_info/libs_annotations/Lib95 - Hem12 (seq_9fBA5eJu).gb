@@ -1,0 +1,33 @@
+LOCUS       Lib95_-_Hem12            200 bp ds-DNA     linear       29-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    47..50
+                     /label="Stp1/2"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+     misc_feature    complement(82..85)
+                     /label="Stp1/2"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+     misc_feature    complement(85..88)
+                     /label="Met31"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    114..117
+                     /label="Met31"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCTC CGTAACAATA TAACTTGGTA CGGGAACGGM ATGTTTTAAA
+       61 TGCACAGCGG TGCCTTGTTT CRCCGTRGAT TGTTAAAGGC TCTTTTTCGG ACGCMACATA
+      121 TTCCTATGCT GCACCAGCAA TTGGTGTCTT CGGATCATAC TACTTCGCAC TAGTTTATAT
+      181 TCGGACACGA CTTGCCGAGC
+//

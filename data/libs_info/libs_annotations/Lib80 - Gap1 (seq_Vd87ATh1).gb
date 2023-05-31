@@ -1,0 +1,37 @@
+LOCUS       Lib80_-_Gap1             200 bp ds-DNA     linear       24-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    55..58
+                     /label="Gat1/Gzf3/Dal80/Gln3 motif"
+                     /ApEinfo_revcolor="#d6b295"
+                     /ApEinfo_fwdcolor="#d6b295"
+     misc_feature    62..65
+                     /label="Gat1 Motif"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    91..94
+                     /label="Gat1/Gzf3/Dal80/Gln3 motif"
+                     /ApEinfo_revcolor="#d6b295"
+                     /ApEinfo_fwdcolor="#d6b295"
+     misc_feature    99..102
+                     /label="Ash1 motif"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    107..111
+                     /label="Hcm1 Motif"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCTA ATAAAAATAT CACTGATTAC GATTCTAGTG AGCARATAAG
+       61 CRATCGGCTG AAAAAAAAAG TCCTAAAACA RATATCATRA TGAAAAAAMC AACCATAGAT
+      121 TCCACCGGAT CAGTGAAAAA GTAATCAACG GACCTGTGGA AGGTCGGAAT GAGTCGCCGA
+      181 CGGGACACGA CTTGCCGAGC
+//

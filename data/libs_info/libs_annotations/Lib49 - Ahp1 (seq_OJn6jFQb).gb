@@ -1,0 +1,33 @@
+LOCUS       Lib49_-_Ahp1             200 bp ds-DNA     linear       24-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    52..55
+                     /label="Ash1"
+                     /ApEinfo_revcolor="#c7b0e3"
+                     /ApEinfo_fwdcolor="#c7b0e3"
+     misc_feature    76..82
+                     /label="Yap1/Yap2/Yap7"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    112..116
+                     /label="Gis1"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+     misc_feature    142..149
+                     /label="Cst6/Aca1"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCGT AATACAATTT ATAAACCACC ACCTTGGCCT CRATCTATTG
+       61 CGCTTATGTT GTCTATTART AATCAAGAAA AGAACCCTAA ATCATCGGCG TCCMCTGTGG
+      121 GGCTCTCGGA AAAACCGGTC CTGAMGTCAC TGAAAAGATT TCGGCACATG GTCATGGGAC
+      181 CAGGACACGA CTTGCCGAGC
+//

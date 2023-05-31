@@ -1,0 +1,57 @@
+LOCUS       Lib40_-_Rsm7             200 bp ds-DNA     linear       14-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    52..55
+                     /label="Phd1/Sok2 motif"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    complement(59..63)
+                     /label="Ace2/Swi5 motif"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    82..86
+                     /label="Msn2/Msn4/Gis1/Rsf2 motif"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_fwdcolor="#d59687"
+     misc_feature    83..86
+                     /label="Nrgs motif"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     misc_feature    complement(97..100)
+                     /label="Nrgs motif"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     misc_feature    127..130
+                     /label="Skn7 motif"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+     misc_feature    129..133
+                     /label="Ace2/Swi5 motif"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    complement(143..146)
+                     /label="Nrgs motif"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     misc_feature    complement(143..147)
+                     /label="Msn2/4 motif"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_fwdcolor="#d59687"
+     misc_feature    complement(144..147)
+                     /label="Gis1/Rsf2 motif"
+                     /ApEinfo_revcolor="#c7b0e3"
+                     /ApEinfo_fwdcolor="#c7b0e3"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCGG CAGCGCCCGC AACATTCGGC GACTCGACGC GCTRCCAGRC
+       61 TGGAAAGTTA GGACGGCGGC ACCMCTGGTG GTTGCAAGRG TTTAGCTTAT TTCAGAAAGG
+      121 GATACTGRCC AGMAAACGTA TTAGRGGCAC ACTATTGCCA TTTTTGAGTA TATCCATGGT
+      181 TGGGACACGA CTTGCCGAGC
+//

@@ -1,0 +1,37 @@
+LOCUS       Lib93_-_Rsp5             200 bp ds-DNA     linear       29-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(51..57)
+                     /label="Fkh1/2"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    complement(90..94)
+                     /label="Ace2/Swi5"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    complement(97..103)
+                     /label="Fkh1/2"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    complement(128..132)
+                     /label="Ace2/Swi5"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    139..143
+                     /label="Ace2/Swi5"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCGT AGCTTTGACG CTGCTATTAT TATTTGGTAT TRTTTACCTT
+       61 TTAATGTTTA TTTGTTTAGA AAACAGACTG CTRGTTTRTT TACATTTGAG AGCAGAAAAA
+      121 AAAAATTGCT RGCGCAGACM AGCCGCACAG TCACGTGACA GTATACGATC ATGTGATCTT
+      181 ACGGACACGA CTTGCCGAGC
+//

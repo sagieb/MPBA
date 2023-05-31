@@ -1,0 +1,61 @@
+LOCUS       Lib30_-_ICY1_(from_392_o 200 bp ds-DNA     circular     22-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    52..57
+                     /label="Sko1 motif"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    55..58
+                     /label="Swi4 motif"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+     misc_feature    64..67
+                     /label="Dot6/Tod6 Motif"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    67..70
+                     /label="Gat1 motif"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    complement(88..91)
+                     /label="Mets motif"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+     misc_feature    95..98
+                     /label="Mets motif"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+     misc_feature    complement(110..113)
+                     /label="Nrgs motif"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     misc_feature    complement(110..114)
+                     /label="Msn2/Msn4/Usv1 Motif (AGGGG binders)"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(111..114)
+                     /label="Tda9/Rsf2 motif"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_fwdcolor="#d59687"
+     misc_feature    complement(123..126)
+                     /label="Nrgs motif"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     misc_feature    130..133
+                     /label="Nrgs Motif"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCGG CATTTTTCCG CATGGAAACG AAACGTGGGC ATGACRTGGA
+       61 AGCGATRATC CGAGCGCTTC TGCTACTGTR GTGACMACCG TACCAAAGGA GRGGTAATAA
+      121 GACMCTGTGC MCTTTGCCAG CATACGTGTT ACCCCCCTCA AAAAGAGCTG GCTGTTCGAG
+      181 CTGGACACGA CTTGCCGAGC
+//

@@ -1,0 +1,41 @@
+LOCUS       Lib41_-_ECM13            200 bp ds-DNA     linear       22-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    54..57
+                     /label="Sfl1"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    63..66
+                     /label="Sfl1"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    76..79
+                     /label="Phd1/Sok2"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    complement(78..81)
+                     /label="Dot6"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+     misc_feature    complement(105..111)
+                     /label="Cst6"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+     misc_feature    127..130
+                     /label="Mig1/2/3"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCCT AGAGAGGCAA AAAAAAAGGT TGCCAAGTAA AGCRAAGTAT
+       61 TTRAAGTATA CTGCAARCAT MACCGAAACA GGAAATCACG AAGCTGAMTC ATCTGTGATT
+      121 TTCCGTCCMC ACCATAGTGA TGTAACATGC AGTAACGCAC GGCGGGCCGA AAGTCGGACT
+      181 TTGGACACGA CTTGCCGAGC
+//

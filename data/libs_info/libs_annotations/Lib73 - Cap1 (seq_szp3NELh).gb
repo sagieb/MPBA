@@ -1,0 +1,33 @@
+LOCUS       Lib73_-_Cap1             200 bp ds-DNA     linear       24-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    55..59
+                     /label="Ace2"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    71..79
+                     /label="Swi4 Double"
+                     /ApEinfo_revcolor="#c7b0e3"
+                     /ApEinfo_fwdcolor="#c7b0e3"
+     misc_feature    101..106
+                     /label="Cbf1 Motif"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    117..122
+                     /label="Cbf1 Motif"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCAC TATTTTTCAT TCCTGGTCTT TTTCCTGTTG AAGCCCARCA
+       61 TTTTTTTTTT CRCGTCRCGT TTTTTCACAA CAGTTCGGAT CACGTRATAA TCACTGCACG
+      121 TRACTATCAT GTGATACGAT AGCCGGGTTA TGATCCCCTT TTTCTTCCTA TTGGAATACT
+      181 GAGGACACGA CTTGCCGAGC
+//

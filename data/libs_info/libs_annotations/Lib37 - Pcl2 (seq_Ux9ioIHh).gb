@@ -1,0 +1,45 @@
+LOCUS       Lib37_-_Pcl2_RC          200 bp ds-DNA     linear       08-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(56..60)
+                     /label="Ace2/Swi5 motif"
+                     /ApEinfo_revcolor="#c7b0e3"
+                     /ApEinfo_fwdcolor="#c7b0e3"
+     misc_feature    complement(59..62)
+                     /label="Skn7 Motif"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    complement(82..86)
+                     /label="Ace2/Swi5 motif"
+                     /ApEinfo_revcolor="#c7b0e3"
+                     /ApEinfo_fwdcolor="#c7b0e3"
+     misc_feature    100..104
+                     /label="Tec1"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+     misc_feature    123..127
+                     /label="Tec1"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+     misc_feature    complement(129..134)
+                     /label="Ste12"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    complement(140..144)
+                     /label="Tec1"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCCG CTATAAAAAT ATAGCTGGGC TAATTTTATT CTATARCTGG
+       61 MCATTTTTTT ATGCGATATC TRCTGGTTTT TTACAGCTGR AATGCCGTGA CAGATGTAAC
+      121 AARAATGTRT TTCAGCTGGC ATTMTCACTC AGAAATGTAA GGCTAAAATC CGCTAAAATA
+      181 GGGGACACGA CTTGCCGAGC
+//

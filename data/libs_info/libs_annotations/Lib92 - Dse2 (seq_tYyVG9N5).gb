@@ -1,0 +1,29 @@
+LOCUS       Lib92_-_Dse2             200 bp ds-DNA     linear       10-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(69..73)
+                     /label="Ace2"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(83..89)
+                     /label="Fkh1/2"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    104..110
+                     /label="Fkh1/2"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCTA CGAAAAGCAT CATCTTATTT TCGCAACGCT GCGGGTTTAG
+       61 GCCTTTCCGM TGGTCTCTTT TCTRTTTACA GTTCTGCCCG AATGTAAAMA AATACTTTGC
+      121 GAAAAGTAAA TAATGTATTC TGAAAAAAAA AAAGAGAACT GTGAACAATG CTTGATAGTT
+      181 GTGGACACGA CTTGCCGAGC
+//

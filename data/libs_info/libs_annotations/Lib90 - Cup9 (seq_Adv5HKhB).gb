@@ -1,0 +1,45 @@
+LOCUS       Lib90_-_Cup9             200 bp ds-DNA     linear       29-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    48..51
+                     /label="Ash1"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    69..72
+                     /label="Ash1"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    complement(85..88)
+                     /label="Cup9/Tos8"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     misc_feature    complement(93..96)
+                     /label="Cup9/Tos8"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     misc_feature    99..102
+                     /label="Gzf3/Dal80/Ash1"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    106..109
+                     /label="Cup9/Tos8"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     misc_feature    complement(124..127)
+                     /label="Nrg1/2"
+                     /ApEinfo_revcolor="#d6b295"
+                     /ApEinfo_fwdcolor="#d6b295"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCGT TATCCACGGG GTTTTCTGAG CACTCATRAT CGGTAGCGGT
+       61 ATATTTCTRA TCTCGCTCAT TTTCTGTMAA ATCGTMCTRA TAATGRACGA AGACTGTACG
+      121 TAAAGRGCAA TTTTAAGAGA CACAAAAGAA TCCCACGAGA ATTACTACTG TTGATTTTTG
+      181 TGGGACACGA CTTGCCGAGC
+//

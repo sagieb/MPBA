@@ -1,0 +1,45 @@
+LOCUS       Lib82_-_Wsc4             200 bp ds-DNA     linear       24-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    complement(54..57)
+                     /label="Nrg1/2"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+     misc_feature    65..69
+                     /label="Mot3"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_fwdcolor="#d59687"
+     misc_feature    76..79
+                     /label="Sok2/Phd1"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+     misc_feature    101..105
+                     /label="Usv1/Rgm1"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+     misc_feature    complement(110..113)
+                     /label="Sok2/Phd1"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+     misc_feature    complement(118..124)
+                     /label="Fkh2"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    130..133
+                     /label="Gzf3"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCAT GTGGTTCCCG GAACGGAATG AGTACGGTGA AAAAGRGAAT
+       61 CAGGARGCAC GGTACMTGCA TATTGCGCCT TTTTTGGTTT CCMCTTCGGG CARCAAGTRT
+      121 TTACTGTAGR ATAATGGTAC TATTACGGTA TTTCCACTTT GGGCGACGTT AAGATACGGG
+      181 CAGGACACGA CTTGCCGAGC
+//

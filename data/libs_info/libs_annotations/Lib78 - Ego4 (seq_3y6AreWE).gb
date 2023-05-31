@@ -1,0 +1,37 @@
+LOCUS       Lib78_-_Ego4             200 bp ds-DNA     linear       24-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..18
+                     /label="lift F"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    73..84
+                     /label="Hcm1 double motif"
+                     /ApEinfo_revcolor="#c7b0e3"
+                     /ApEinfo_fwdcolor="#c7b0e3"
+     misc_feature    107..110
+                     /label="Tos8/Cup9 motif"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+     misc_feature    123..127
+                     /label="Msn2 motif"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    133..136
+                     /label="Tos8/Cup9 Motif"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+     misc_feature    complement(141..144)
+                     /label="Tos8/Cup9 Motif"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+     misc_feature    complement(183..200)
+                     /label="lift R"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+ORIGIN
+        1 CGATGCGCAT GCGTACGCTC GAGGCTTCCG GGGAAAGGGG CAGCCAAGCA AAGCGGAAAG
+       61 AATCTGGGGA ATAAMCAGCA AMCAATGCCG AAATGAATGA ATCAGCRACA TAAAGTCACT
+      121 CAAGRGGAAA ATRACAGTCT TGTMAACAAG AACAAAAACT TTTGTGTTGA GGGACGATGT
+      181 GGGGACACGA CTTGCCGAGC
+//
