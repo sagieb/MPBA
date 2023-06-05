@@ -1,0 +1,111 @@
+
+import pandas as pd
+import os
+
+IDS = config["sample"]
+
+length = list(config['personal_barcodes'][IDS])
+
+rule cutadapt:
+    input:
+        "raw_data/{id}_R1_001.fastq.gz"
+    output:
+        "cutadapt/{id}_R1_001.fastq.gz"
+    log:
+        "logs/{id}.log"
+    params:
+        seq_to_rem = config["adaptor"]
+    shell:
+        "cutadapt -g file:{params.seq_to_rem}  -o {output}  --cores=8 {input} > {log}"
+
+rule demux:
+    input:
+        r1="cutadapt/{id}_R1_001.fastq.gz",
+        r2="raw_data/{id}_R2_001.fastq.gz",
+        barcode=config['barcodes']
+    output:
+        pair2 = expand("demux/{{id}}.{digits}.pair2.truncated.gz",  digits=length),
+        pair1 = temp(expand("demux/{{id}}.{digits}.pair1.truncated.gz", digits=length)),
+        settings_big = temp("demux/{id}.settings"),
+        discarded = temp(expand("demux/{{id}}.{digits}.discarded.gz",digits=length)),
+        singleton = temp(expand("demux/{{id}}.{digits}.singleton.truncated.gz", digits=length)),
+        unindentified = temp(expand("demux/{{id}}.unidentified{suffix}.gz", suffix=['_1', '_2'])),
+        settings_small = temp(expand("demux/{{id}}.{digits}.settings", digits=length)),
+    params:
+        name="demux/{id}"
+    shell:
+        "AdapterRemoval --gzip  --barcode-list {input.barcode} --minlength 4 --barcode-mm 1 --file1 {input.r2} --file2 {input.r1} --basename {params.name} --threads 24 --settings {params.name}"
+
+rule assign_reads_to_prom:
+    input:
+        "demux/{id}.{digits}.pair2.truncated.gz"
+    output:
+        "assigned/{id}.{digits}.assigned.fastq.gz"
+    params:
+        prom_adapt_fasta = config["prom_adapt"]
+    shell:
+        "cutadapt -g file:{params.prom_adapt_fasta} -o {output} --rename='adapter={{adapter_name}}' --action=retain {input}"
+
+rule count_prom_reads:
+    input:
+        "assigned/{id}.{digits}.assigned.fastq.gz"  
+    output:
+        "prom_count/{id}.{digits}.prom_count.txt"
+    shell:
+        "paste --delimiter=' ' <(zcat {input} | grep @ | sort | uniq -c | sort -n | cut -d\"=\" -f2) <(zcat {input} | grep @ | sort | uniq -c | sort -n | awk '{{print $1}}') > {output}"
+
+
+rule generate_sample_prom_list:
+    input:
+        a = "assigned/{id}.{digits}.assigned.fastq.gz",
+        b = "prom_count/{id}.{digits}.prom_count.txt"
+    output:
+        temp("samp_prom_files/samp_proms.{id}.{digits}.txt")
+    params:
+        samp_info = config["samp_info"],
+        plasmid_info = config["plasmid_info"]
+    shell:
+        "python gen_files.py {input.a} {params.samp_info} {params.plasmid_info} {output}"
+
+rule concat_files:
+    input:
+        expand("samp_prom_files/samp_proms.{{id}}.{digits}.txt", id=IDS,digits=length)
+    output:
+        "samp_prom_concat_file_{id}.txt"
+    shell:
+        "cat {input} > {output}"
+# rule all:
+#     input:
+#         expand("samp_prom_concat_file_{id}.txt", id=IDS)
+
+
+prom_seqs = pd.read_csv(config['promoter_sequences'], index_col = 0)
+def mut_count(prom_seqs, fixed_loc, length_fixed_seq,input_prom):
+    curr_prom_seq = prom_seqs.loc[input_prom,"Sequence"]
+    var_pos = [m.start()+1 for m in re.finditer('[RYMKSWHBVDN]', curr_prom_seq)]
+    str_var = "'{print "
+    for pos in range(len(var_pos)):
+        str_var = str_var + '$' + str(var_pos[pos]) + ' '
+    str_var = str_var[:-1] + "}'"
+    substr_ind = str(fixed_loc+1) + ',' + str(length_fixed_seq)
+    seq_edge = curr_prom_seq[fixed_loc:fixed_loc+length_fixed_seq]
+    return str_var,substr_ind,seq_edge
+
+rule all:
+    input:
+        expand("samp_prom_concat_file_{id}.txt", id=IDS)
+    run:
+        seq_files = list(pd.read_csv(str(input), header=None).loc[:, 0].values)
+        seq_proms = list(pd.read_csv(str(input), header=None).loc[:, 1].values)
+        final_names = ['final_files/'+name.split('/')[1].split('assigned')[0] + seq_proms[index] +'.txt' for index, name in enumerate(seq_files)]
+        if not os.path.isdir('final_files'):
+            os.mkdir('final_files')
+        with open(str(input), 'r') as f:
+            concat_file = f.read().split('\n')
+            concat_file.pop(concat_file.index(''))
+        for out_index, output_file in enumerate(final_names):
+            input_file = concat_file[out_index].split(',')[0]
+            input_prom = concat_file[out_index].split(',')[1]
+            str_var,substr_ind,seq_edge = mut_count(prom_seqs=prom_seqs, fixed_loc=int(config['end_pos_check']), length_fixed_seq=int(config['length_to_check']),input_prom=input_prom)
+            curr_cmd = "zcat %s | grep %s -A1 | awk %s | gawk %s | sed %s | awk %s | sort | uniq -c | sort -n > %s" % (input_file,input_prom, "'NR%3==2'",  "'{if (substr($0," + substr_ind + ") == \"" + seq_edge + "\"){print $0}}'","'s/./& /g; s/ $//'", str_var, output_file)
+            os.system(curr_cmd)
