@@ -1,0 +1,4 @@
+      1 AGAGC
+      1 GAAGC
+      1 GAGAA
+      1 GGGAA
