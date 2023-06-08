@@ -9,7 +9,7 @@
 `chmod +x ./pipeline/run.sh`<br>
 `./pipeline/run.sh`<br>
 ## 4. run the script build_csv_files to generate the final csv files
-`python ./pipeline/build_csv_files `<br>
+`python ./pipeline/build_csv_files.py `<br>
 
 # Data analysis
 1. To run the code first install the python requirements:<br>
