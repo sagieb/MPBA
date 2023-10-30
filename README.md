@@ -1,5 +1,5 @@
 # MPBA Pipeline (Snakemake based):<br>
-## 1. put all the raw fastqfiles from ####geo_accession in the pipeline/raw_data folder:<br> 
+## 1. put all the raw fastqfiles from GSE234455 in the pipeline/raw_data folder:<br> 
 ## 2. create environment:<br> 
 `conda create -n MPBA_pl python=3.8.3`<br> 
 `conda activate MPBA_pl`<br>
