@@ -26,6 +26,8 @@ def get_lib_info(lib_num):
     info['mut_loc'] = [int(m.start()) for m in re.finditer('[RYMKSWHBVDN]', info['lib_seq'])]  # position within the library sequence where mutations are located
     info['wt_at_var_loc'] = [info['wt_seq'][loc] for loc in info['mut_loc']]  # wild type/genomic nucleotides found in variable positions
     info['var_pos_pattern'] = ''.join([mut_dict[info['lib_seq'][i]] for i in info['mut_loc']])  #string containing both options wt/mut in each var position
+    info['relevant_tfs'] = curr_lib_info['Relevant_factors'].values[0].split(' ')
+    info['mut_num'] = int(curr_lib_info["Number_of_mutations"].values[0])
     return info
 
 

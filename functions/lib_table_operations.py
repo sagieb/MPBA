@@ -240,6 +240,22 @@ def norm_res_data(tf, lib_num, exp_num, norm_to, occ=None):
         return norm_uncut
 
 
+def norm_without_biorep_mean(tf, lib_num, exp_num, norm_to, occ=None):
+    file_name = tf + '_' + str(lib_num) + '_' + str(exp_num) + '.csv'  # find results file ('tf_libnum_exp.csv')
+    res_table = (pd.read_csv(os.path.join(params.RES_PATH, file_name), index_col=0))
+    norm_res = dp.norm_reads(res_table)  # 1
+    sample_filt_norm, _ = dp.rm_samples(tf, lib_num, exp_num, norm_res)  
+    sample_info = dp.get_samp_info(sample_filt_norm)
+    log2_norm = dp.res_log2(sample_filt_norm)  
+    norm_tp_0 = dp.norm_to_tp_0(log2_norm, sample_info)  
+    norm_uncut = norm_non_cut(lib_num, norm_tp_0, norm_to) 
+    if occ == True:  # 7
+        norm_occ = convert_fc_to_occ(norm_uncut)
+        return norm_occ
+    else:
+        return norm_uncut
+
+
 def mean_pos_change_calc(tf, lib_num, exp_num, norm_to, occ=None):
     '''This function calculates the mean position change, by averaging over all sequences in which a position is intact.
     The function return a data frame containing the mean position change (tps X positions).

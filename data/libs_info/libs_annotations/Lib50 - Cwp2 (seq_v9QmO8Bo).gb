@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /label="Mbp1 motif"
                      /ApEinfo_revcolor="#d6b295"
                      /ApEinfo_fwdcolor="#d6b295"
-     misc_feature    complement(116..128)
+     misc_feature    complement(117..121)
                      /label="Rap1 motif"
                      /ApEinfo_revcolor="#f58a5e"
                      /ApEinfo_fwdcolor="#f58a5e"
